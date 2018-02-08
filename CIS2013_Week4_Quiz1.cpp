@@ -5,14 +5,15 @@ using namespace std;
 int main(){
 	int i = 0;
 	for (i=0;i<=2000;i++){
-		cout << i << endl;
+		cout << i;
+		
 		if (i % 33 == 0){
-			cout << i << " BAR" << endl;
+			cout << " BAR";
 		}
 		if (i % 50 == 0){
-			cout << i << " FOO" << endl;
+			cout << " FOO";
 		}
-		
+		cout << endl;
 	}
 	
 }
