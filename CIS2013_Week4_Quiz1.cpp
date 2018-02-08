@@ -7,12 +7,13 @@ int main(){
 	for (i=0;i<=2000;i++){
 		cout << i;
 		
-		if (i % 33 == 0){
-			cout << " BAR";
-		}
 		if (i % 50 == 0){
 			cout << " FOO";
 		}
+		if (i % 33 == 0){
+			cout << " BAR";
+		}
+		
 		cout << endl;
 	}
 	
