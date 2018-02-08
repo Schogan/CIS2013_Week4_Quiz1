@@ -6,7 +6,7 @@ int main(){
 	int i = 0;
 	int FOO = 0;
 	int BAR = 0;
-	for (i=0;i<=2000;i++){
+	for (i=1;i<=2000;i++){
 		cout << i;
 		
 		if (i % 50 == 0){
