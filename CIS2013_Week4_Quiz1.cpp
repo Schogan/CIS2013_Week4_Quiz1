@@ -21,4 +21,6 @@ int main(){
 	}
 	cout << "Your FOO total is: " << FOO << endl;
 	cout << "Your BAR total is: " << BAR << endl;
+	char done;
+	cin >> done;
 }
